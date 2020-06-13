@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main(){
-    int  a, b ,gcd, rem;
-    scanf("%d %d",&a,&b);
+    int  x, y ,gcd, rem;
+    scanf("%d %d",&x,&y);
     while(b!=0)
     {
-       rem=a%b;
-       a=b;
-       b=rem;
+       rem=x%y;
+       x=y;
+       y=rem;
     }
-    gcd =a;
+    gcd =x;
     printf("%d\n",gcd);
     return 0;
 }
