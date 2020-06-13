@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 int main(){
     int  a, b ,gcd, rem,lcm,n1,n2;
@@ -11,8 +10,7 @@ int main(){
        a=b;
        b=rem;
     }
-    gcd=a;
-    lcm= ((n1*n2)/gcd);
+    lcm= ((n1*n2)/a);
     printf("%d\n",lcm);
     return 0;
-}\
+}
